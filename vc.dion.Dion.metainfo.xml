@@ -36,27 +36,27 @@
     <screenshot type="default">
       <caption>Conferences</caption>
       <caption xml:lang="ru">Конференции</caption>
-      <image>https://raw.githubusercontent.com/flathub/flathub/13bd4747a6d4ce37e101cb0c63a5dbfee9d0e017/conf.png</image>
+      <image type="source" width="1680" height="1006">https://raw.githubusercontent.com/flathub/flathub/13bd4747a6d4ce37e101cb0c63a5dbfee9d0e017/conf.png</image>
     </screenshot>
     <screenshot>
       <caption>Video hosting</caption>
       <caption xml:lang="ru">Видеохостинг</caption>
-      <image>https://raw.githubusercontent.com/flathub/flathub/13bd4747a6d4ce37e101cb0c63a5dbfee9d0e017/video.png</image>
+      <image type="source" width="1721" height="1196">https://raw.githubusercontent.com/flathub/flathub/13bd4747a6d4ce37e101cb0c63a5dbfee9d0e017/video.png</image>
     </screenshot>
     <screenshot>
       <caption>Chats</caption>
       <caption xml:lang="ru">Чаты</caption>
-      <image>https://raw.githubusercontent.com/flathub/flathub/13bd4747a6d4ce37e101cb0c63a5dbfee9d0e017/chats.png</image>
+      <image type="source" width="1806" height="1112">https://raw.githubusercontent.com/flathub/flathub/13bd4747a6d4ce37e101cb0c63a5dbfee9d0e017/chats.png</image>
     </screenshot>
     <screenshot>
       <caption>Broadcasts</caption>
       <caption xml:lang="ru">Трансляции</caption>
-      <image>https://raw.githubusercontent.com/flathub/flathub/13bd4747a6d4ce37e101cb0c63a5dbfee9d0e017/translations.png</image>
+      <image type="source" width="1890" height="1392">https://raw.githubusercontent.com/flathub/flathub/13bd4747a6d4ce37e101cb0c63a5dbfee9d0e017/translations.png</image>
     </screenshot>
     <screenshot>
       <caption>Rooms</caption>
       <caption xml:lang="ru">Комнаты</caption>
-      <image>https://raw.githubusercontent.com/flathub/flathub/13bd4747a6d4ce37e101cb0c63a5dbfee9d0e017/rooms.png</image>
+      <image type="source" width="1595" height="1028">https://raw.githubusercontent.com/flathub/flathub/13bd4747a6d4ce37e101cb0c63a5dbfee9d0e017/rooms.png</image>
     </screenshot>
   </screenshots>
   <categories>
@@ -75,6 +75,11 @@
   <requires>
     <internet>always</internet>
   </requires>
+  <recommends>
+    <control>keyboard</control>
+    <control>pointing</control>
+    <control>touch</control>
+  </recommends>
   <releases>
     <release version="5.27.1" date="2025-11-06">
       <description>
