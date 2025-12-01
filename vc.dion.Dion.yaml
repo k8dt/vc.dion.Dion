@@ -29,16 +29,15 @@ modules:
       - install -Dm 644 ${FLATPAK_ID}.desktop ${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop
     sources:
       - type: extra-data
-        url: https://static.dion.vc/desktop_app/dion_5.27.1_amd64.deb
-        sha256: 83d9288ddba8295c8f5933396ccfb5708b82105c65614c7a21f84db54a3ae963
-        size: 90619872
+        url: https://static.dion.vc/desktop_app/dion_5.28.0_amd64.deb
+        sha256: e0e5276989b2baf389233abbfc0ea49171270058dd61ff08ca965f99467b5a9c
+        size: 92050392
         filename: dion.deb
         x-checker-data:
           type: json
           url: https://api-clients.dion.vc/v2/constants/desktop-versions
           version-query: .linux.version
-          timestamp-query: .linux.updated_at
-          url-query: .linux.items[] | select(.title=="deb") | .download_link | trim
+          url-query: .linux.items[] | select(.title=="deb") | .download_link | rtrimstr(" ")
       - type: script
         dest-filename: apply_extra.sh
         commands:

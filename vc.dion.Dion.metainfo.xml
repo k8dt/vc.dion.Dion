@@ -81,6 +81,11 @@
     <control>touch</control>
   </recommends>
   <releases>
+    <release version="5.28.0" date="2025-11-27">
+      <description>
+        <p>Update dion.deb to 5.28.0</p>
+      </description>
+    </release>
     <release version="5.27.1" date="2025-11-06">
       <description>
         <p>When clicking on a conference link, the conference window did not open in the desktop application.</p>
