@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright Dion © 2025 -->
-<component type="desktop">
+<component type="desktop-application">
   <id>vc.dion.Dion</id>
   <launchable type="desktop-id">vc.dion.Dion.desktop</launchable>
   <name>Dion</name>
@@ -15,8 +15,8 @@
   <url type="help">https://faq.dion.vc/</url>
   <update_contact>support@dion.vc</update_contact>
   <description>
-    <p>**This package is not verified by, affiliated with, or supported by dion.vc.**</p>
-    <p xml:lang="ru">**Этот пакет не проверен, не связан и не поддерживается dion.vc.**</p>
+    <p>**This wrapper is not verified by, affiliated with, or supported by dion.vc.**</p>
+    <p xml:lang="ru">**Данная обертка над официальной версией для компьютера не проверена, не связана и не поддерживается dion.vc.**</p>
     <p>Video conferencing service with a hybrid cloud infrastructure.</p>
     <p xml:lang="ru">Сервис видеоконференцсвязи с гибридной облачной инфраструктурой.</p>
     <ul>
@@ -59,12 +59,6 @@
       <image type="source" width="1595" height="1028">https://raw.githubusercontent.com/flathub/flathub/13bd4747a6d4ce37e101cb0c63a5dbfee9d0e017/rooms.png</image>
     </screenshot>
   </screenshots>
-  <categories>
-    <category>Network</category>
-    <category>InstantMessaging</category>
-    <category>VideoConference</category>
-    <category>Telephony</category>
-  </categories>
   <content_rating type="oars-1.1">
     <content_attribute id="social-chat">intense</content_attribute>
     <content_attribute id="social-info">intense</content_attribute>
@@ -81,6 +75,9 @@
     <control>touch</control>
   </recommends>
   <releases>
+    <release version="5.29.1" date="2026-03-19">
+      <description><p>Update dion.deb to 5.29.1</p></description>
+    </release>
     <release version="5.29.0" date="2026-03-12">
       <description><p>Update dion.deb to 5.29.0</p></description>
     </release>
